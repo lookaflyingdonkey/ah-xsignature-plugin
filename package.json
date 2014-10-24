@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Dean Collins",
+    "email": "lookaflyingdonkey@icloud.com"
+  },
+  "name": "ah-signature-plugin",
+  "description": "Adds/Validates a X-Signature header on web requests",
+  "version": "0.0.1",
+  "homepage": "http://dblog.com.au",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lookaflyingdonkey/ah-signature-plugin.git"
+  },
+  "keywords": [
+    "actionhero",
+    "x-signature",
+    "hmac"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "scripts/postinstall.js"
+  }
+}
